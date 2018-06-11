@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>teste</title>
+		<link href="materialize/css/materialize.css" rel="stylesheet" type="text/css" />
+		<link href="css/biblioteca-uniasselvi.css" rel="stylesheet" type="text/css" />
+
+	</head>
+	<body lang="pt-BR">
+
+		<ul id="dropdown1" class="dropdown-content">
+			<li><a href="#topico1" class="link-topico-para-ancoras scroll">Tópico 1 - Conceitos Fundamentais</a></li>
+			<li><a href="#topico2" class="link-topico-para-ancoras scroll">Tópico 2 - Questões Básicas da Administração Ambiental</a></li>
+			<li><a href="#!">Tópico 3 - Empresa e Meio ambiente</a></li>
+			<li><a href="#!">Tópico 4 - Práticas sustentáveis, rotulagem Ambiental e Marketing <br>Verde Adotado pelas Organizações</a></li>
+		</ul>
+
+		<ul id="dropdown2" class="dropdown-content">
+			<li><a href="#!">Tópico 1 - Ética</a></li>
+			<li><a href="#!">Tópico 2 - Responsabilidade Social</a></li>
+			<li><a href="#!">Tópico 3 - Impacto das Decisões Empresarias na Sociedade e no Meio Ambiente</a></li>
+		</ul>
+
+		<ul id="dropdown3" class="dropdown-content">
+			<li><a href="#!">Tópico 1 - O Processo do Gerenciamento Ambiental</a></li>
+			<li><a href="#!">Tópico 2 - Gerenciamento de Crises Ambientais</a></li>
+			<li><a href="#!">Tópico 3 - Modelo de Gestão</a></li>
+			<li><a href="#!">Tópico 4 - Integração de Sistemas de Gestão</a></li>
+		</ul>
+
+<!--menu navbar utilizado apenas em desktop-->
+			<div class="navbar-fixed">
+				<nav class="yellow accent-3">
+					<div class="nav-wrapper container">
+		        <a href="#!" class="brand-logo"><img src="images/logo_uniasselvi.png" alt="logo" class="logo_uniasselvi"></a>
+						<a href="#mobile-demo" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons icone-menu">menu</i></a>
+		        <ul class="right hide-on-med-and-down">
+							<li><a class="dropdown-trigger black-text" href="#dropdown1" data-target="dropdown1">Unidade 1<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a class="dropdown-trigger black-text" href="#dropdown2" data-target="dropdown2">Unidade 2<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a class="dropdown-trigger black-text" href="#dropdown3" data-target="dropdown3">Unidade 3<i class="material-icons right">arrow_drop_down</i></a></li>
+		        </ul>
+					</div>
+				</nav>
+	  	</div>
+<!--fim menu navbar utilizado apenas em desktop-->
+
+<!--Menu lateral, utilizado apenas nos dispositivos mobile-->
+		<ul class="sidenav" id="mobile-demo">
+
+			<li>
+				<div class="user-view">
+					<div class="background">
+							<img src="images/background-siderbar.jpg">
+					</div>
+					<a href=""><span class="white-text name texto-sombreado nome-discilplina-sidebar">Administração Ambiental</span></a>
+				</div>
+			</li>
+
+			<li class="no-padding">
+			        <ul class="collapsible collapsible-accordion">
+			          <li>
+			            <a class="collapsible-header blue-grey lighten-5 waves-effect" href="#dropdown5">UNIDADE 1<i class="material-icons right">arrow_drop_down</i></a>
+			            <div class="collapsible-body">
+			              <ul id="dropdown5">
+											<li><a href="#topico1" class="sidenav-close link-topico-para-ancoras linhas-menu-mobile waves-effect sub-header scroll">Tópico 1 - Conceitos Fundamentais</a></li>
+											<li><a href="#topico2" class="sidenav-close link-topico-para-ancoras linhas-menu-mobile waves-effect sub-header scroll">Tópico 2 - Questões Básicas da Administração Ambiental</a></li>
+											<li><a href="#!" class="link-topico-para-ancoras linhas-menu-mobile waves-effect sub-header scroll">Tópico 3 - Empresa e Meio ambiente</a></li>
+											<li><a href="#!" class="link-topico-para-ancoras linhas-menu-mobile waves-effect sub-header scroll">Tópico 4 - Práticas sustentáveis, rotulagem Ambiental e Marketing Verde Adotado pelas Organizações</a></li>
+			              </ul>
+			            </div>
+			          </li>
+			        </ul>
+			  </li>
+
+
+				<li class="no-padding">
+								<ul class="collapsible collapsible-accordion">
+									<li>
+										<a class="collapsible-header blue-grey lighten-5 waves-effect" href="#dropdown6">UNIDADE 2<i class="material-icons right">arrow_drop_down</i></a>
+										<div class="collapsible-body">
+											<ul id="dropdown6">
+												<li><a href="#topico1" class="link-topico-para-ancoras linhas-menu-mobile waves-effect sub-header">Tópico 1 - Ética</a></li>
+												<li><a href="#!" class="link-topico-para-ancoras linhas-menu-mobile waves-effect sub-header">Tópico 2 - Responsabilidade Social</a></li>
+												<li><a href="#!" class="link-topico-para-ancoras linhas-menu-mobile waves-effect sub-header">Tópico 3 - Impacto das Decisões Empresarias na Sociedade e no Meio Ambiente</a></li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+					</li>
+
+					<li class="no-padding">
+									<ul class="collapsible collapsible-accordion">
+										<li>
+											<a class="collapsible-header blue-grey lighten-5 waves-effect" href="#dropdown4">UNIDADE 3<i class="material-icons right">arrow_drop_down</i></a>
+											<div class="collapsible-body">
+												<ul id="dropdown4">
+													<li><a href="#topico1" class="link-topico-para-ancoras linhas-menu-mobile waves-effect sub-header">Tópico 1 - O Processo do Gerenciamento Ambiental</a></li>
+													<li><a href="#!" class="link-topico-para-ancoras linhas-menu-mobile waves-effect sub-header">Tópico 2 - Gerenciamento de Crises Ambientais</a></li>
+													<li><a href="#!" class="link-topico-para-ancoras linhas-menu-mobile waves-effect sub-header">Tópico 3 - Modelo de Gestão</a></li>
+													<li><a href="#!" class="link-topico-para-ancoras linhas-menu-mobile waves-effect sub-header">Tópico 4 - Integração de Sistemas de Gestão</a></li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+						</li>
+
+		</ul>
+<!--Fim do Menu lateral, utilizado apenas nos dispositivos mobile-->
+
+<!--paralax da unidade 1-->
+		<div class="parallax-container paralax-unidade">
+
+			<div class="container">
+				<div id="_idContainer000" class="Quadro-de-texto-b-sico">
+					<h1 class="titulo-da-unidade white-text center">UNIDADE 1</h1>
+				</div>
+				<div id="_idContainer001" class="Quadro-de-texto-b-sico">
+					<h3 class="titulo-da-unidade-escrito white-text center">INTRODUÇÃO  E  CONCEITOS  FUNDAMENTAIS</h3>
+				</div>
+			</div>
+
+      <div class="parallax"><img src="images/paralax-uni-1.jpg"></div>
+    </div>
+<!--fim da paralax da unidade 1-->
+
+		<div class="container">
+
+<!--objetivos de aprendizagem-->
+			<div id="_idContainer002" class="Quadro-de-texto-b-sico">
+				<h3 class="objetivos-de-aprendizagem-titulo">OBJETIVOS DE APRENDIZAGEM</h3>
+			</div>
+			<div id="_idContainer003">
+				<p>A partir do estudo desta unidade, você estará apto(a) a:</p>
+				<p class="marcadores marcadores-objetivos"><i class="material-icons icones-marcadores">check_circle</i>apresentar um conceito de meio ambiente;</p>
+				<p class="marcadores marcadores-objetivos"><i class="material-icons icones-marcadores">check_circle</i>apontar objetivos e finalidades da administração ambiental;</p>
+				<p class="marcadores marcadores-objetivos"><i class="material-icons icones-marcadores">check_circle</i>descrever as relações existentes entre industrialização, urbanização e meio ambiente;</p>
+				<p class="marcadores marcadores-objetivos"><i class="material-icons icones-marcadores">check_circle</i>relacionar a importância da preservação ambiental ao crescimento da empresa;</p>
+				<p class="marcadores marcadores-objetivos"><i class="material-icons icones-marcadores">check_circle</i>identificar estratégias para viabilizar a administração ambiental no âmbito empresarial.</p>
+				<p class="marcadores marcadores-objetivos"><i class="material-icons icones-marcadores">check_circle</i>conhecer as práticas sustentáveis adotadas pelas organizações.</p>
+			</div>
+<!-- fim objetivos de aprendizagem-->
+
+<!-- plano de estudos-->
+			<div id="_idContainer004" class="Quadro-de-texto-b-sico">
+				<h3 class="objetivos-de-aprendizagem-titulo">PLANO DE ESTUDOS</h3>
+			</div>
+			<div id="_idContainer005">
+				<p class="marcadores-inicio-unidade">Esta unidade está dividida em quatro tópicos. No final de cada um deles, você encontrará atividades que o(a) auxiliarão a fixar os conhecimentos desenvolvidos.</p>
+				<p class="marcadores-inicio-unidade">TÓPICO 1 – CONCEITOS FUNDAMENTAIS</p>
+				<p class="marcadores-inicio-unidade">TÓPICO 2 – QUESTÕES BÁSICAS DA ADMINISTRAÇÃO AMBIENTAL</p>
+				<p class="marcadores-inicio-unidade">TÓPICO 3 – EMPRESA E MEIO AMBIENTE</p>
+				<p class="marcadores-inicio-unidade">TÓPICO 4 – PRÁTICAS SUSTENTÁVEIS, ROTULAGEM AMBIENTAL E MARKETING VERDE ADOTADO PELAS ORGANIZAÇÕES</p>
+			</div>
+			<br>
+
+		</div>
+<!-- fim do plano de estudos-->
+
+<!--parallax do tópico 1-->
+			<a id="topico1" class="ancora"></a>
+			<div class="parallax-container paralax-topico">
+				<div class="container">
+					<div class="container-paralax-topico">
+						<div id="_idContainer000" class="Quadro-de-texto-b-sico">
+							<h2 class="titulo-de-topico white-text center">TÓPICO 1</h2>
+						</div>
+						<div id="_idContainer001" class="Quadro-de-texto-b-sico">
+							<h3 class="titulo-de-topico-escrito white-text center">CONCEITOS FUNDAMENTAIS</h3>
+						</div>
+					</div>
+				</div>
+	      <div class="parallax"><img src="images/paralax-uni1-top1.png"></div>
+	    </div>
+<!--fim da parallax do tópico 1-->
+
+		<div class="container">
+			<div id="_idContainer002">
+				<h5 class="subtitulo-principal">1 INTRODUÇÃO</h5>
+			</div>
+			<div id="_idContainer003">
+				<p class="texto-corrido">Iniciamos os estudos de uma disciplina que demonstrará a importância do meio ambiente, mas, não somente com boas intenções, visto que, mesmo a melhor das intenções pode acarretar resultados infrutíferos se não houver organização, planejamento e disciplina.</p>
+				<p class="texto-corrido">Nesse ínterim é que abordaremos a administração ambiental, como maneira de organizar e, de maneira coerente, demonstrar sua utilização na rotina diária de uma organização.</p>
+				<p class="texto-corrido">Esse tópico tratará dos conceitos fundamentais da disciplina, os quais, durante todo o seu transcurso, estarão presentes de modo direto e indireto, visto serem de primordial importância para a compreensão do conteúdo.</p>
+			</div>
+
+			<!--caixas de uni com animação-->
+			<ul class="collapsible">
+			    <li>
+			      <div class="collapsible-header uni"><i class="material-icons pulse">announcement</i>Atenção!</div>
+			      <div class="collapsible-body caixa-uni"><span>Caro(a) acadêmico(a)! O desafio  foi lançado. Começaremos neste momento a abordagem da metodologia de temas ambientais importantes sobre como a administração ambiental  pode aperfeiçoar a preservação ambiental nas empresas e comunidades.</span></div>
+			    </li>
+			  </ul>
+			<!--fim da caixa de uni-->
+
+			<div id="_idContainer004">
+
+			</div>
+			<div id="_idContainer005">
+				<h5 class="subtitulo-principal">2 OBJETIVOS E FINALIDADE</h5>
+			</div>
+			<div id="_idContainer006" class="Quadro-de-texto-b-sico">
+				<p class="texto-corrido">Com o avanço da tecnologia, o ser humano obteve uma capacidade sem precedentes na história de destruição do meio ambiente.</p>
+				<p class="texto-corrido">Possuímos meios cada vez mais modernos e ágeis de produção, mas, nem sempre esses meios são “ambientalmente corretos”. Em contrapartida, também temos tecnologias de controle da poluição em franco processo de desenvolvimento. Por que, então, não conseguimos resolver esse impasse?</p>
+			</div>
+			<div id="_idContainer007">
+				<p class="texto-corrido">Temos situações negativas - geração de poluição, de consumo de recursos naturais, degradação de ambientes. Também temos tecnologias que nos permitem reduzir e praticamente eliminar essas situações. Então, o que está faltando?</p>
+				<p class="texto-corrido">Talvez, um pouco de planejamento, organização, controle do processo. Em resumo: precisamos administrar nossa situação. Nesse ponto é que surge nossa disciplina “administração ambiental”.  Mas, o que é administração ambiental?</p>
+				<p class="texto-corrido">Para sobreviver em um mercado tão competitivo e exigente, as organizações devem considerar as questões ambientais, identificando os aspectos ambientais de seus processos, e administrá-las da mesma forma como administram outros aspectos (produção, qualidade e pessoas). </p>
+				<p class="texto-corrido">As questões ambientais que não são administradas pelas organizações acabam influenciando seus resultados de diversas formas: </p>
+			</div>
+			<div id="_idContainer008">
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>consumidores e/ou clientes conscientes que buscam comprar produtos e/ou serviços de empresas que preservam o meio ambiente; </p>
+				<p class="marcadores">indenizações e multas para aquelas empresas que causam impactos ambientais, por falta de controle de seus processos; </p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>custo de produção elevado devido à falta de processos ecoeficientes. </p>
+			</div>
+			<div id="_idContainer009">
+				<p class="texto-corrido">Essas influências e fatores afetam direta ou indiretamente o custo dos produtos ou serviços fornecidos. E qual deve ser a atitude dos empresários e administradores com as questões ambientais que envolvem todas as organizações?</p>
+			</div>
+			<div id="_idContainer010">
+				<p class="citacao">A solução dos problemas ambientais, ou sua minimização, exige uma nova atitude dos empresários e administradores, que devem passar a considerar o meio ambiente em suas decisões e adotar concepções administrativas e tecnológicas que contribuam para ampliar a capacidade de suporte da terra. (Barbieri, 2011, p.103).</p>
+			</div>
+			<div id="_idContainer011">
+				<p class="texto-corrido">Mas de que forma surgiram os problemas ambientais nas empresas, que precisam ser administrados? </p>
+				<p class="texto-corrido">Com o avanço da tecnologia, o ser humano obteve uma capacidade de destruição sem precedentes na história. Possuímos meios cada vez mais modernos e ágeis de produção, mas nem sempre esses meios são “ambientalmente corretos”. Em contrapartida, também temos tecnologias de controle da poluição em franco processo de desenvolvimento. Por que, então, não conseguimos resolver esse impasse?</p>
+				<p class="texto-corrido">Temos situações negativas – geração de poluição, de consumo de recursos naturais, degradação de ambientes. Também temos tecnologias que nos permitem reduzir e praticamente eliminar essas situações. Então, o que está faltando?</p>
+				<p class="texto-corrido">Talvez um pouco de planejamento, organização, controle do processo. Em resumo: precisamos administrar nossa situação. Nesse ponto é que surge nossa disciplina “administração ambiental”.  Mas, o que é administração ambiental?</p>
+				<p class="texto-corrido">Para uma melhor compreensão de administração ambiental, precisamos antes entender o conceito de administração. Mas, o que é administração? </p>
+				<p class="texto-corrido">Conforme Park (1997, p.1), <span class="Strong">“</span>Administração tem a função de coordenar pessoas e recursos, com vistas a cumprir seus objetivos e metas”.</p>
+			</div>
+			<div id="_idContainer012">
+				<p class="texto-corrido">Conforme verificamos no quadro anterior, as funções da administração exigem uma série de ações organizadas, visando sempre a resultados. Essas funções podem ser aplicadas na administração ambiental em qualquer tipo de organização. </p>
+				<p class="texto-corrido">O que é administração ambiental? </p>
+			</div>
+			<div id="_idContainer013">
+				<p class="citacao">Administração ambiental ou simplesmente gestão ambiental, será aqui entendida como diretrizes e as atividades administrativas e operacionais, tais como planejamento, direção, controle, alocação de recursos e outras realizadas com objetivo de obter efeitos positivos sobre o meio ambiente, tanto reduzindo, eliminando ou compensando os danos ou problemas causados pelas ações humanas, tanto evitando que eles surjam. (Barbieri, 2011, p. 190).</p>
+			</div>
+			<div id="_idContainer014">
+				<p class="texto-corrido">Como vimos, os conceitos de administração e administração ambiental têm algo em comum: planejamento, direção e controle, visando obter resultados, através de pessoas e recursos. No entanto, na administração ambiental, o foco é a preservação do meio ambiente, através de instrumentos e/ou ferramentas, que serão apresentados no Tópico 3, da respectiva unidade, que trata de ferramentas da qualidade aplicadas na administração ambiental e em modelos de gestão ambiental na Unidade 3, Tópico 3, do Caderno de Estudos. </p>
+				<p class="texto-corrido">Importante entender que alguns fatores motivam as organizações a investir na administração ambiental, e esses motivos estão representados na figura a seguir:</p>
+			</div>
+			<div id="_idContainer015">
+				<p class="figuras-fontes">QUADRO 1 – Funções da administração e tópicos correlatos</p>
+			</div>
+			<div id="_idContainer016">
+				<table id="table001" class="Sem-estilo-de-tabela">
+					<colgroup>
+						<col />
+						<col />
+					</colgroup>
+					<tbody class="tabela-mobile">
+						<tr>
+							<td>
+								<span>Planejamento</span>
+							</td>
+							<td>
+									<p>O QUE (WHAT) FAZER</p>
+									<p>POR QUE (WHY) FAZER</p>
+									<p>COMO (HOW) FAZER</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>Organização</span>
+							</td>
+							<td>
+								<p>QUEM (WHO) VAI FAZER</p>
+								<p>ONDE (WHERE) FAZER</p>
+								<p>QUANDO (WHEN) FAZER</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>Direção</span>
+							</td>
+							<td>
+								<p>EFICIÊNCIA E EFICÁCIA</p>
+								<p>LIDERANÇA E MOTIVAÇÃO</p>
+								<p>COMANDO EFICAZ</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>Controle</span>
+							</td>
+							<td>
+								<p>COMPARAÇÃO COM OS PADRÕES</p>
+								<p>CORREÇÃO DE RUMOS</p>
+								<p>SUBSÍDIOS AO APERFEIÇOAMENTO</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="_idContainer017">
+				<p class="figuras-fontes">FONTE: Costa Neto e Canuto (2010, p. 45)</p>
+			</div>
+			<div id="_idContainer018">
+				<p class="texto-corrido">Demais objetivos e resultados da administração ambiental serão apresentados no Tópico 4, da respectiva unidade, quando abordaremos práticas sustentáveis, rotulagem ambiental e marketing verde adotado pelas organizações.</p>
+			</div>
+			<div id="_idContainer019">
+				<h5 class="subtitulo-principal">3 FUNDAMENTOS BÁSICOS DA ADMINISTRAÇÃO AMBIENTAL</h5>
+			</div>
+			<div id="_idContainer020">
+				<p class="texto-corrido">O que é um fundamento? Quando você inicia a construção de uma casa, qual a primeira etapa a ser realizada? É o fundamento. Em seguida, erguem-se as paredes, dando continuidade à construção, ou seja, fundamento é a base na qual está alicerçada a casa. Na administração ambiental o conceito é essencialmente o mesmo.</p>
+				<p class="texto-corrido">O fundamento da administração ambiental é a base, ou seja, os motivos que levam uma  empresa a adotar as práticas ambientais corretas. Esses motivos podem ser: ideológicos, administrativos, comerciais, legais ou outros. Porém, independentemente de quais forem, eles foram a força motriz que levaram  uma organização a adotar essa prática.</p>
+				<p class="texto-corrido">As causas variam de uma organização para outra. Mas, podemos resumi-los em alguns itens básicos:</p>
+			</div>
+			<div id="_idContainer021">
+				<p class="figuras-fontes">FIGURA 1 – FATORES MOTIVACIONAIS PARA A PROTEÇÃO AMBIENTAL DE UMA ORGANIZAÇÃO</p>
+			</div>
+			<div>
+				<div id="_idContainer022">
+					<img src="teste-web-resources/image/img1.jpg" alt="" class="responsive-img materialboxed" />
+				</div>
+			</div>
+			<div id="_idContainer023" class="Quadro-de-texto-b-sico">
+				<p class="figuras-fontes">FONTE: Donaire,1995</p>
+			</div>
+			<div id="_idContainer024">
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>As matérias-primas (recursos naturais) utilizadas na empresa nos processos de transformação estão cada vez mais escassas e caras. Por exemplo, água, ar, madeira, entre outros, já não são mais bens “livres/grátis”. Certas empresas, conforme o tipo de produto/serviço, necessitam de localização que disponha de recursos naturais com qualidade e em grande quantidade, podendo esse fator ser determinante para a instalação ou permanente da mesma, em uma localidade.</p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>O crescimento da população, principalmente nas grandes regiões metropolitanas e nos países em desenvolvimento, tem grande influência sobre o meio ambiente de suas localidades.  </p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>A legislação ambiental está cada vez mais rígida, obrigando uma maior preocupação ambiental.</p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>A cobrança da comunidade local, através da população vizinha, ONGs, associações comunitárias, órgãos de imprensa em nível nacional e internacional. </p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>No que se refere às seguradoras e agentes financeiros, em países desenvolvidos essa prática é muito comum. Empresas ambientalmente corretas conseguem redução nas apólices de seguros, taxa de financiamento e outros benefícios.</p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>Clientes que estão cada vez mais exigentes, não querendo associar suas marcas a de empresas que não tenham um histórico ambiental saudável. Em países desenvolvidos, a questão ambiental é decisiva para conclusão de negócios.</p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>Investidores e acionistas conscientes da responsabilidade ambiental preferem investir em empresas ambientalmente corretas.</p>
+			</div>
+
+			<!--caixas de uni com animação-->
+			<ul class="collapsible">
+					<li>
+						<div class="collapsible-header uni"><i class="material-icons pulse">lightbulb_outline</i>Dica!</div>
+						<div class="collapsible-body caixa-uni"><span>Relembre do exemplo do EXXON Valdez, cujo desastre ambiental no Alasca quase faliu a maior companhia de petróleo do mundo na década de 1980.</span></div>
+					</li>
+				</ul>
+			<!--fim da caixa de uni-->
+
+			<div id="_idContainer026">
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>O consumo de itens produzidos de maneira ambientalmente correta aumenta no mundo todo. Os consumidores, em certos países, dispensam produtos ou serviços que causam danos ambientais. </p>
+			</div>
+			<div id="_idContainer027">
+				<p class="texto-corrido">Esses fundamentos relacionados não são definitivos, mas são uma amostra das principais razões que justificam uma empresa a adotar um modelo administrativo ambientalmente correto.</p>
+			</div>
+			<div id="_idContainer028">
+				<h5 class="subtitulo-principal">4 NECESSIDADE E IMPORTÂNCIA DA ADMINISTRAÇÃO AMBIENTAL PARA A EMPRESA</h5>
+			</div>
+			<div id="_idContainer029">
+				<p class="texto-corrido">Devemos frisar que uma empresa é a única responsável por adotar uma estrutura administrativa ambientalmente correta. Porém, após sua implantação, a mesma passa a ser “lei”, que deverá ser cumprida integralmente, sob pena de ela entrar em descrédito, não atingindo o foco principal, que é a preservação do meio ambiente.</p>
+				<p class="texto-corrido">Pelo que abordamos até o momento, qual seria, então, a necessidade e importância da administração ambiental para a empresa? Preservar o meio ambiente? Mas será somente isso?</p>
+				<p class="texto-corrido">Uma empresa, mesmo sendo ambientalmente correta, precisa de “lucro”. Sem ele não teremos recursos para investimentos ambientais. Sem lucro, uma empresa deixará de existir, ou seja, o lucro significa a sobrevivência da empresa.</p>
+				<p class="texto-corrido">Então, a administração ambiental visará conciliar e dosar a medida de certas práticas administrativas que resultem em proteção ao meio ambiente, mantendo a empresa lucrando e ativa no mercado.</p>
+				<p class="texto-corrido">Uma empresa sem enfoque ambiental está cometendo um erro estratégico enorme, possivelmente decretando futuramente sua extinção. Conforme verificamos a cada dia, a população está cada vez mais consciente e atuante na questão ambiental, procurando empresas que forneçam produtos e serviços ambientalmente corretos. Não é um modismo, pois essa tendência será cada vez mais forte e predominante. Então, uma empresa com uma posição oposta com certeza não existirá no futuro.</p>
+				<p class="texto-corrido">Portanto, a questão, além de preservação ambiental, também é sobrevivência empresarial, manutenção de empregos, distribuição de riqueza e responsabilidade social.</p>
+			</div>
+
+			<!--caixas de uni com animação-->
+			<ul class="collapsible">
+					<li>
+						<div class="collapsible-header uni"><i class="material-icons pulse">lightbulb_outline</i>Dica!</div>
+						<div class="collapsible-body caixa-uni">
+							<span>Lembre-se da Figura 2, que apresenta os principais agentes de pressão para que uma empresa adote práticas ambientais em sua administração. Isso será necessário para o andamento futuro dos nossos trabalhos.</span>
+						</div>
+					</li>
+				</ul>
+			<!--fim da caixa de uni-->
+
+			<div id="_idContainer031">
+				<h5 class="subtitulo-principal">5 FINALIDADES BÁSICAS DA ADMINISTRAÇÃO AMBIENTAL E EMPRESARIAL</h5>
+			</div>
+			<div id="_idContainer032">
+				<p class="texto-corrido">As finalidades básicas da administração ambiental de uma empresa devem estar alinhadas com as suas metas, atividades e responsabilidades empresariais. Elas não devem ser gerenciadas isoladamente, mas em conjunto, mesmo que exista uma tendência de considerar um mais importante do que o outro. </p>
+				<p class="texto-corrido">Podemos dividir essas responsabilidades empresariais em:</p>
+			</div>
+			<div id="_idContainer033">
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>responsabilidade ambiental; </p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>responsabilidade econômica; </p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>responsabilidade social. </p>
+				<p class="marcadores">Dentro da responsabilidade ambiental temos como finalidades básicas:</p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>O máximo de rendimento com o mínimo de utilização dos recursos naturais.</p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>Buscar a compatibilidade ambiental dos processos produtivos e dos seus produtos ou serviços. Com isso, busca-se a preservação do meio ambiente.</p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>Apresentar o desempenho ambiental compatível com as metas traçadas.</p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>Designar investimentos para áreas com oportunidades de melhorias ambientais.</p>
+			</div>
+			<div id="_idContainer034">
+				<p class="figuras-fontes">FIGURA 2 – PRESSÕES PARA PRÁTICAS AMBIENTAIS NAS EMPRESAS</p>
+			</div>
+			<div>
+				<div id="_idContainer035">
+					<img src="teste-web-resources/image/0002.jpg" alt="" class="responsive-img materialboxed" />
+				</div>
+			</div>
+			<div id="_idContainer036" class="Quadro-de-texto-b-sico">
+				<p class="figuras-fontes">FONTE: Disponível em: &lt;www.geocities.com&gt;. Acesso em: 7 nov. 2008.</p>
+			</div>
+			<div id="_idContainer037">
+				<h5 class="subtitulo-principal">6 O QUE É AMBIENTE</h5>
+			</div>
+			<div id="_idContainer038">
+				<p class="texto-corrido">Primeiramente, o que é um ambiente? Qual sua definição? </p>
+				<p class="texto-corrido">Podemos definir ambiente como um conjunto de substâncias, circunstâncias ou condições em que existe determinado objeto ou em que ocorre determinada ação. </p>
+				<p class="texto-corrido">Porém, o termo ambiente aplica-se a vários campos de trabalho:</p>
+			</div>
+			<div id="_idContainer039">
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>Na ecologia e meio ambiente, destaque aos aspectos naturais, incluindo a luz, o ar, a água, o solo ou os outros seres vivos e suas inter-relações. </p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>Na política, sociedade, econômica, estética, filosófica.</p>
+				<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1" lang="pt-PT">•&#9;</span><span lang="pt-PT">Na área de administração, cujo ambiente externo é o entorno de um sistema administrativo (ambiente da organização) e o componente individual desses sistema é o ambiente interno (ambiente do trabalho ou tarefa).</span></p>
+			</div>
+			<div id="_idContainer040">
+				<h6 class="subtitulo-secundario">6.1 CONCEITO DE MEIO AMBIENTE</h6>
+			</div>
+			<div id="_idContainer041">
+				<p class="texto-corrido">O que realmente significa meio ambiente? Qual seu conceito?</p>
+				<p class="texto-corrido">Bem, o conceito de meio ambiente, tal qual como conhecemos atualmente, não foi criado repentinamente, mas foi uma evolução ao longo do tempo, baseado em ciências e conceitos preexistentes.</p>
+				<p class="texto-corrido">Inicialmente, todas as questões ambientais eram tratadas pela Ecologia, que era definida como o estudo do lugar em que se vive, com ênfase sobre a totalidade ou padrão de relações entre os organismos e o seu ambiente. Derivada do  grego oikos = casa e logos = estudo, ecologia significa o estudo do meio ambiente em que vivemos e sua  relação e interação com todos os seres vivos.</p>
+			</div>
+			<div id="_idContainer042">
+				<p class="citacao"><span class="Strong">[...] </span>A palavra ecologia foi definida pela primeira vez em 1866, por Ernst Heinrich Haeckel <span class="Strong">[...] Segundo ele, a ecologia era ciência capaz de compreender a relação do organismo com o seu ambiente.[...] Assim a ecologia pode ser definida como: o estudo científico da distribuição e abundância de organismos e das interações que determinam a distribuição e abundância. </span>(TOWNSED; BEGON; HARPER, 2010, p.16).</p>
+			</div>
+			<div id="_idContainer043">
+				<p class="texto-corrido">Com o surgimento dos estudos ambientais, criou-se o conceito de meio ambiente. Inicialmente, o mesmo relacionava-se apenas às condições naturais. Porém, após a  Rio-92, o fator humano foi incorporado ao conceito de meio ambiente, incluindo os problemas decorrentes das atividades humanas relacionadas à questão ambiental. </p>
+				<p class="texto-corrido">Hoje, a definição clássica de meio ambiente foi alterada para uma visão mais abrangente. Conforme o art. 3º, I, da Lei nº 6.938/81, o meio ambiente é definido como “[...]o conjunto de condições, leis, influências e interações de ordem física, que permite, abriga e rege a vida em todas as suas formas.” Posteriormente, na Constituição Federal de 1988, meio ambiente foi dividido em físico ou natural, cultural, artificial e do trabalho. </p>
+				<p class="texto-corrido">O meio ambiente físico ou natural é constituído pela flora, fauna, solo, água, atmosfera etc., incluindo os ecossistemas (art. 225, §1º, I, VII). Meio ambiente cultural constitui-se pelo patrimônio cultural, artístico, arqueológico, paisagístico, manifestações culturais, populares etc. (art. 215, §1º e §2º). Meio ambiente artificial é o conjunto de edificações particulares ou públicas, principalmente na zona urbana (art. 182, art. 21, XX e art. 5º, XXIII) e meio ambiente do trabalho é o conjunto de condições existentes no local de trabalho, relativas à qualidade de vida do trabalhador (art. 7º, XXXIII e art. 200). </p>
+				<p class="texto-corrido">&#160;</p>
+				<p class="texto-corrido">Portanto, o homem passou a integrar plenamente o meio ambiente no caminho para a preservação dos recursos naturais e desenvolvimento sustentável.</p>
+			</div>
+			<div id="_idContainer044">
+				<h6 class="subtitulo-secundario">6.2 AMBIENTE DA ORGANIZAÇÃO</h6>
+			</div>
+			<div id="_idContainer045">
+				<p class="texto-corrido">Como vimos, meio ambiente não significa apenas a natureza. Engloba também os aspectos sociais, econômicos, culturais e políticos de uma instituição pública ou privada.</p>
+				<p class="texto-corrido">Na administração, ambiente da organização é o entorno de um sistema administrativo, ou seja, o ambiente externo de uma empresa.</p>
+				<p class="texto-corrido">Então, o ambiente da organização é o conjunto de todos os setores que constituem a empresa. Portanto, cada setor, apesar de possuir características peculiares de trabalho, contribui para a preservação ambiental e para o cumprimento das metas estabelecidas, sendo os responsáveis pelo sucesso ou não dos programas ambientais estabelecidos pela administração.</p>
+			</div>
+			<div id="_idContainer046">
+				<h6 class="subtitulo-secundario">6.3 AMBIENTE DA TAREFA</h6>
+			</div>
+			<div id="_idContainer047">
+				<p class="texto-corrido">Numa organização, o ambiente da tarefa refere-se às condições sociais ou psicológicas que afetam as funções dos seus membros. </p>
+				<p class="texto-corrido">O ambiente da tarefa pode ser definido <span lang="pt-PT">como sendo o conjunto de bens, instrumentos e meios de natureza material e imaterial, em face do qual o ser humano exerce atividades laborais (art. 200, VIII da CF). Representa o complexo de fatores físicos, climáticos ou quaisquer outros que, interligados ou não, estão presentes e envolvem o local de trabalho da pessoa.</span></p>
+				<p class="texto-corrido">Vimos, nesse primeiro tópico, os fundamentos básicos da administração ambiental e a importância do meio ambiente no contexto das organizações. No próximo tópico, vamos nos aprofundar ainda mais no assunto, verificando a relação empresa, industrialização, meio ambiente e administração ambiental.</p>
+			</div>
+
+<!--inicio do resumo de tópico-->
+			<div class="resumo-topico">
+				<div id="_idContainer048">
+					<h4 class="titulo-resumo-topico">RESUMO DO TÓPICO 1 </h4>
+				</div>
+				<div id="_idContainer049">
+					<p class="texto-corrido">Neste tópico, caro(a) acadêmico(a), você teve oportunidade de estudar os seguintes itens referentes à administração ambiental:</p>
+				</div>
+				<div id="_idContainer050">
+					<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>Objetivos, finalidades e fundamentos da administração ambiental.</p>
+					<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>A necessidade e sua importância para uma organização nos dias atuais.</p>
+					<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>Os conceitos de ambiente e seus desdobramentos: </p>
+					<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>ambiente da organização;</p>
+					<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>ambiente da tarefa e;</p>
+					<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>meio ambiente.</p>
+				</div>
+			</div>
+<!--fim do resumo de tópico-->
+
+			<div class="autoatividades">
+				<h4 class="titulo-autoatividades">AUTOATIVIDADES</h4>
+				<p class="pergunta" id="teste">Questão 1 - Analise as situações a seguir e indique quem compõe a população e, quando for o caso, a amostra. a) A Polícia Rodoviária Federal quer divulgar o total de acidentes com vítimas nas rodovias federais no último feriado. Para isso, coleta o número de chamados atendidos pelas suas guaritas para este tipo de ocorrência.</p>
+				<textarea class="autoatividade"></textarea>
+
+				<ul class="collapsible">
+			    <li>
+			      <a class="collapsible-header mostra-resposta-discursiva" href="#id"><i class="material-icons">chat</i>Exibir Resposta</a>
+			      <div class="collapsible-body"><span>R.: 1 Concepção socrática: para Sócrates, é virtuoso quem é sábio e pratica o bem, do contrário, quem não conhece o bem e não o pratica é infeliz. Aqueles que praticam o mal, o fazem por ignorância. Crítica: dificuldade de encontrarmos o que é certo e errado apenas pelos caminhos do conhecimento. 2 Concepção aristotélica: para Aristóteles, a Ética está vinculada à vida prática. Na obra Ética a Nicômaco, Aristóteles trata da Ética como a vida boa que todo ser humano deseja; a busca da felicidade. Crítica: uma das críticas que se pode fazer à ética aristotélica é quanto aos critérios utilizados para a escolha do que é certo ou do que é errado. Cada um pode justificar a sua situação conforme lhe convém.
+3 Concepção cristã: para a concepção cristã, a nossa virtude se define na relação com Deus e não com a sociedade. Crítica: será que o ser humano não pode encontrar, por si só, o que é certo e o que é errado, necessitando do auxílio divino para praticar o bem?
+4 Concepção kantiana: propõe que o conceito ético seja extraído do fato de que cada um deve se comportar de acordo com princípios universais aplicáveis a todos, sem exceções, desde que se exija do próximo o mesmo que exigimos de nós. Crítica: dificuldade de alcançar um consenso entre os indivíduos sobre o que é certo e o que é errado.
+5 Concepção marxista: para Marx, numa sociedade onde vivem exploradores e explorados, é a moral da classe dominante que predomina. Somente poderá existir uma moral verdadeira quando vivermos numa sociedade sem classes. Crítica: como seria esta sociedade sem classes e sem propriedade privada? 6 Concepção relativista: para a concepção relativista, cada pessoa deve definir o que é certo e o que é errado, tendo como referências as suas próprias convicções. Crítica: como conciliar os interesses de cada um?</span></div>
+			    </li>
+				</ul>
+
+
+				<p class="pergunta">Questão 2 - Classifique as variáveis a seguir como variáveis qualitativas (nominais ou ordinais) ou quantitativas (discretas ou contínuas), lembrando que esta classificação depende do contexto do problema. a) Em uma pesquisa, pede-se para o entrevistado escrever o algarismo 1 em um campo, caso seja do sexo masculino, e 2, caso seja do sexo feminino.</p>
+				<textarea class="autoatividade" rows="10" cols="80"></textarea>
+
+				<ul class="collapsible">
+					<li>
+						<div class="collapsible-header mostra-resposta-discursiva"><i class="material-icons">chat</i>Exibir Resposta</div>
+						<div class="collapsible-body"><span>R.: 1 Concepção socrática: para Sócrates, é virtuoso quem é sábio e pratica o bem, do contrário, quem não conhece o bem e não o pratica é infeliz. Aqueles que praticam o mal, o fazem por ignorância. Crítica: dificuldade de encontrarmos o que é certo e errado apenas pelos caminhos do conhecimento. 2 Concepção aristotélica: para Aristóteles, a Ética está vinculada à vida prática. Na obra Ética a Nicômaco, Aristóteles trata da Ética como a vida boa que todo ser humano deseja; a busca da felicidade. Crítica: uma das críticas que se pode fazer à ética aristotélica é quanto aos critérios utilizados para a escolha do que é certo ou do que é errado. Cada um pode justificar a sua situação conforme lhe convém.</span></div>
+					</li>
+				</ul>
+
+				<p class="pergunta">Questão 3 - No transporte rodoviário, a atividade transportadora se processa, normalmente, através das duas formas mais utilizadas, que são chamadas de:</p>
+
+				<ul class="collapsible">
+				    <li>
+				      <div class="collapsible-header">a) Lotação dividida e carga incompleta.</div>
+				      <div class="collapsible-body resposta-errada"><span>Que pena! Resposta errada!</span></div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header">b) Lotação incompleta e carga completa.</div>
+				      <div class="collapsible-body resposta-errada"><span>Que pena! Resposta errada!</span></div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header">c) Lotação fracionada e carga completa.</div>
+				      <div class="collapsible-body resposta-errada"><span>Que pena! Resposta errada!</span></div>
+				    </li>
+						<li>
+							<div class="collapsible-header">d) Lotação completa e carga fracionada.</div>
+							<div class="collapsible-body resposta-certa"><span>Parabéns! Resposta certa!</span></div>
+						</li>
+				  </ul>
+
+			</div>
+</div>
+
+<!--paralax unidade 1 tópico 2-->
+<a class="ancora" id="topico2"></a>
+<div class="parallax-container" id="paralax-top-2">
+	<div class="container">
+		<div class="container-paralax-topico">
+			<div id="_idContainer000" class="Quadro-de-texto-b-sico">
+				<h2 class="titulo-de-topico white-text center paralax-topico-2">TÓPICO 2</h2>
+			</div>
+			<div id="_idContainer001" class="Quadro-de-texto-b-sico">
+				<h3 class="titulo-de-topico-escrito white-text center">QUESTÕES BÁSICAS DA ADMINISTRAÇÃO AMBIENTAL</h3>
+			</div>
+		</div>
+	</div>
+	<div class="parallax"><img src="images/paralax-uni1-top2.jpg"></div>
+</div>
+<!--fim da paralax unidade 1 tópico 2-->
+
+<div class="container">
+	<div id="_idContainer000">
+		<h5 class="subtitulo-principal">1 INTRODUÇÃO</h5>
+	</div>
+	<div id="_idContainer001">
+		<p class="texto-corrido">Nesse tópico abordaremos questões básicas da administração ambiental, como poluição e sua geração, nas indústrias e nas cidades, o impacto do crescimento populacional sobre o meio ambiente e as relações entre empresa e meio ambiente.</p>
+		<p class="texto-corrido">Sendo assim, conheceremos alguns pontos importantes, bem como as inter-relações existentes em comunidade, empresa e meio ambiente.</p>
+	</div>
+	<div id="_idContainer002">
+		<h5 class="subtitulo-principal">2 CONCEITOS DE POLUIÇÃO</h5>
+	</div>
+	<div id="_idContainer003">
+		<p class="texto-corrido">Toda atividade humana tem como consequência o consumo de matéria-prima e geração de resíduos. Esses resíduos, normalmente, são descartados no meio ambiente. Tal descarte gera um impacto negativo nas localidades que o recebem, sendo conhecido como poluição.</p>
+		<p class="texto-corrido">Todos já ouviram ou leram sobre esse tema, mas exatamente o que é poluição? Conforme estabelece a Lei nº 6.938/1981 - Lei da Política Nacional de Meio Ambiente, “poluição é a degradação da qualidade ambiental, resultante de atividades que, direta ou indiretamente:</p>
+	</div>
+	<div id="_idContainer004">
+		<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>prejudiquem a saúde, a segurança e o bem-estar da população;&#160;</p>
+		<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>criem condições adversas às atividades sociais e econômicas;&#160;</p>
+		<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>afetem desfavoravelmente a biota;&#160;</p>
+		<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>afetem as condições estéticas ou sanitárias do meio ambiente;&#160;</p>
+		<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>lancem matérias ou energia em desacordo com os padrões ambientais estabelecidos.“</p>
+	</div>
+	<div id="_idContainer005">
+		<p class="texto-corrido">Portanto, poluição é um impacto ambiental, que pode ser negativo ou positivo, mas, no caso da poluição, ele sempre será negativo. Podemos considerar um impacto ambiental como sendo qualquer alteração das propriedades físicas, químicas e biológicas do meio ambiente, cuja causa pode estar em qualquer forma de matéria ou energia resultante das atividades humanas que, direta ou indiretamente, afetam a saúde, a segurança e o bem-estar da população; as atividades sociais e econômicas; a biota; as condições estéticas e sanitárias do meio ambiente; a qualidade dos recursos ambientais.</p>
+	</div>
+	<div id="_idContainer006">
+		<p class="caixa-uni">Para aprofundar seus conhecimentos sobre as principais fontes de poluição, inicialmente consulte os seguintes sites:  </p>
+		<p class="caixa-uni"><a href="http://ambientes.ambientebrasil.com.br/gestao/areas_degradadas/saneamento_e_poluicao.html&gt">Clique aqui</a> e <a href="http://www.cetesb.sp.gov.br/ar/Informa??es-B?sicas/21-Poluentes&gt">aqui</a>.</p>
+		<p class="caixa-uni">Caso desejar, poderá também consultar literaturas correlatas sobre o tema.</p>
+	</div>
+	<div id="_idContainer007">
+		<p class="caixa-uni">Você verá, mais tarde, a importância desses elementos no transcorrer de nossos estudos.</p>
+	</div>
+	<div id="_idContainer008">
+		<h5 class="subtitulo-principal">3 A INDUSTRIALIZAÇÃO E A URBANIZAÇÃO</h5>
+	</div>
+	<div id="_idContainer009">
+		<p class="texto-corrido">A primeira Conferência das Nações Unidas sobre meio ambiente, realizada em Estocolmo em junho de 1972, colocou a questão ambiental em foco, reunindo, pela primeira vez, representantes de governos, para discutir a necessidade de tomar medidas efetivas de controle dos fatores que causam degradação ambiental.</p>
+		<p class="texto-corrido">Nesse evento popularizou-se a frase da então primeira ministra da Índia, Indira Ghandi:  “A pobreza é a maior das poluições”.  Foi nesse contexto que os países do Sul afirmaram que a solução da poluição não era brecar o desenvolvimento e, sim, orientar o desenvolvimento para preservar o meio ambiente e os recursos não renováveis.</p>
+		<p class="texto-corrido">O crescimento da população mundial e a migração para os grandes centros urbanos criaram uma situação de impacto ambiental em nível mundial. Consequentemente, a atividade industrial cresceu para atender à demanda por produtos industrializados, carros, roupas, alimentos, remédios, lazer, água, combustíveis, etc.</p>
+		<p class="texto-corrido">Esse aumento populacional e industrial está consumindo os recursos naturais num ritmo que não permite a sua autorregeneração. Exemplo disso, temos a atual crise do aumento de preços dos alimentos. Nunca tivemos uma área cultivada tão grande no mundo, também nunca a produção de alimentos foi tão grande, a eficiência das culturas agrícolas está cada vez maior. Então, como justificar a falta de alimentos e o aumento dos preços?</p>
+		<p class="texto-corrido">Primeiramente, é a distribuição de alimentos, muitas vezes nos locais em que são cultivados e industrializados, não sendo este, às vezes, o local de maior consumo. Muitos países em vias de desenvolvimento e subdesenvolvidos têm como atividade econômica principal o setor agrícola, mas, como principal fonte de recursos financeiros, eles acabam exportando sua produção para países desenvolvidos, ficando somente o excedente para o mercado interno.</p>
+		<p class="texto-corrido">Segundo, o destino desses alimentos. Um exemplo típico é a questão dos biocombustíveis. Nos EUA, a geração de etanol utiliza como matéria-prima o milho. Como a lucratividade é maior na produção de álcool do que em produtos alimentares, os produtores de milho estão destinando suas safras para o setor de álcool. Com isso, o preço do milho subiu no setor alimentar, elevando os custos em toda a cadeia alimentar.</p>
+		<p class="texto-corrido">A preocupação ambiental para encontrar substitutos aos combustíveis fósseis está gerando, em contrapartida, falta de alimentos para a população mundial, ou seja, faltou visão, faltou administração ambiental.</p>
+	</div>
+	<div id="_idContainer010">
+		<p class="texto-corrido">O gráfico da figura anterior mostra como a situação é preocupante, pois os países considerados desenvolvidos possuem uma taxa de crescimento populacional estável. Normalmente, esses países possuem recursos financeiros e poucos recursos naturais para se autossustentar. Exemplo típico - Japão e Europa. Os EUA possuem recursos naturais abundantes, entretanto, seu ritmo de consumo é tão acelerado que ele busca recursos em outros países.</p>
+		<p class="texto-corrido">Segundo a Comissão Mundial sobre o Meio Ambiente e Desenvolvimento – ONU (1987), essa situação faz com que os países menos desenvolvidos exportem a produção para os países desenvolvidos, a maioria das vezes não levando em consideração processos ambientalmente corretos, por diversos motivos: são caros, não detêm tecnologia, não possuem legislação ambiental e etc.</p>
+		<p class="texto-corrido">O aumento da população causa impactos ambientais, elevando o consumo de recursos naturais e agravando a emissão de gases de efeito estufa. Veja o que dizem os pesquisadores americanos.</p>
+	</div>
+	<div id="_idContainer011">
+		<p class="figuras-fontes">FIGURA 3 – CRESCIMENTO DA POPULAÇÃO MUNDIAL  DE 1950 - 2100</p>
+	</div>
+	<div>
+		<div id="_idContainer012">
+			<img src="teste-web-resources/image/img3.png" alt="" class="responsive-img materialboxed"/>
+		</div>
+	</div>
+	<div id="_idContainer013" class="Quadro-de-texto-b-sico">
+		<p class="figuras-fontes">FONTE: Comissão Mundial sobre o Meio Ambiente e Desenvolvimento (1987) – ONU</p>
+	</div>
+	<div id="_idContainer014" class="caixa-com-background">
+		<p>AUMENTO DA POPULAÇÃO AGRAVA A EMISSÃO DE GASES DE EFEITO ESTUFA</p>
+		<p>PESQUISADORES AMERICANOS INDICAM QUE A CADA AUMENTO DE 1% DA POPULAÇÃO, A EMISSÃO DE GASES CRESCE EM MAIS DE 1%</p>
+		<p>A superpopulação é um dos fatores que pressionam o meio ambiente, ao aumentar o consumo de recursos naturais. Uma nova pesquisa, porém, indica que o impacto do crescimento populacional pode ser maior do que se imaginava. &quot;Olhando para a maioria das nações durante as últimas décadas, nós descobrimos que para cada 1% de aumento da população, nós atingimos um pouco mais de 1% no aumento de emissões&quot;, afirma Thomas Dietz, pesquisador da Universidade do Estado de Michigan.</p>
+		<p>Dietz e seu colega Eugene Rosa, da Universidade do Estado de Washington, publicaram no último domingo um artigo na revista <span class="Emphasis">Nature Climate Change </span>detalhando esse fenômeno<span class="Emphasis">.</span> No trabalho, eles analisaram de forma crítica os vários fatores que vêm sendo considerados&#160; suspeitos dos causadores da mudança climática, principalmente o crescimento da população mundial.</p>
+		<p>No final do ano passado, a ONU divulgou que a população mundial chegou a 7 bilhões. As projeções são de que, até o final do século, esse número cresça para 10 bilhões. De acordo com Dietz, &quot;[...] isso inquestionavelmente vai aumentar o impacto que nós causamos no planeta&quot;.<br /><br />            Segundo os autores, até pouco tempo atrás o debate de mudanças climáticas estava focado em se ela foi provocada pela atividade humana. Recentemente, o debate mudou para que tipos de atividades estão criando esse efeito.</p>
+		<p>&quot;Nenhum fator age de forma independente do outro&quot;, diz Dietz, professor de sociologia e política e ciência do meio ambiente. &quot;O efeito do tamanho da população depende do consumo, os efeitos de consumo dependem de quantas pessoas estão consumindo e em que nível&quot;.</p>
+		<p><span class="Strong">Tecnologia a favor do meio ambiente</span> - O estudo analisou e levou em conta parâmetros como o nível de consumo, a prosperidade dos países e o aumento da população. Muitos acreditam que a mudança climática está relacionada com o desenvolvimento de um Estado: as nações mais prósperas usam mais recursos e então geram mais emissões. </p>
+		<p>Os autores indicam que, por outro lado, cidadãos de nações mais prósperas costumam ter mais consciência social e geralmente estão mais dispostos a trabalhar e pagar por um ambiente mais limpo.</p>
+		<p>O aumento do uso de eletricidade gerada por fontes renováveis que não emitem gases do efeito estufa, por exemplo, pode parcialmente ou completamente compensar a tendência do aumento de emissões gerado pelo crescimento de prosperidade&quot;, afirma Dietz.</p>
+		<p>De acordo com o estudo, o crescimento esperado para as próximas décadas em termos de economia e de número da população tende a elevar as emissões substancialmente.</p>
+		<p>A única salvação, para os autores, é o aprimoramento tecnológico e mudanças na forma que o homem usa os recursos. &quot;Estas alterações terão de ser enormes, porque elas devem contrabalancear os aumentos substanciais da população, especialmente com o aumento da prosperidade&quot;, afirma Dietz.</p>
+	</div>
+	<div id="_idContainer015">
+		<p class="figuras-fontes">FONTE: Disponível em: &lt;http://veja.abril.com.br/noticia/ciencia/aumento-da-populacao-agrava-a-emissao-de-gases-de-efeito-estufa&gt;. Acesso em: 10 out. 2012.</p>
+	</div>
+	<div id="_idContainer016">
+		<p class="caixa-uni">Caro(a) acadêmico(a), para aprofundar seus conhecimentos, sugerimos uma pesquisa sobre o tema: crescimento populacional e falta de alimentos.</p>
+	</div>
+	<div id="_idContainer017">
+		<h5 class="subtitulo-principal">4 EMPRESA E MEIO AMBIENTE</h5>
+	</div>
+	<div id="_idContainer018">
+		<p class="texto-corrido">Desde o início de nossa história, a interação entre a atividade humana e o seu meio ambiente foi fator dominante na moldagem de um pelo outro.</p>
+		<p class="texto-corrido">Quando esta atividade, por força da sua organização, passa a ser denominada uma empresa, ela se torna, inevitavelmente, um elo essencial na cadeia de equilíbrio do meio ambiente como um todo.</p>
+		<p class="texto-corrido">Vale a pena ler o texto disponível no site &lt;www.pactomataatlantica.org.br&gt; e refletir sobre a importância da Mata Atlântica para humanidade.</p>
+	</div>
+	<div id="_idContainer019" class="caixa-com-background">
+		<p>A FLORESTA E SUA HISTÓRIA</p>
+		<p>A Mata Atlântica é um dos cinco hotspots de biodiversidade mais importantes da Terra e a maior Reserva da Biosfera designada pela UNESCO, representando uma das regiões prioritárias para conservação a nível mundial. Séculos atrás, a floresta se estendia por mais de 130 milhões de hectares ao longo da costa leste brasileira, abrangendo trechos do norte da Argentina e leste do Paraguai. Hoje, no Brasil, restam apenas 7% da Mata Atlântica em bom estado de conservação, distribuídos em fragmentos isolados acima de 1.000 hectares cada. Os últimos remanescentes desta exuberante floresta abrigam uma riqueza de diversidade biológica comparável à célebre Amazônia. Nos locais onde ela sobrevive, a Mata Atlântica apresenta uma das paisagens mais espetaculares da Terra, como a deslumbrante costa do Rio de Janeiro.</p>
+		<p>O desmatamento da Mata Atlântica teve início nos séculos XVI e XVII quando valiosas madeiras nobres, ideais para a construção naval e indústria moveleira, eram enviadas para a Europa. Entretanto, a maior parte do desmatamento ocorreu nos últimos cem anos. Hoje, algumas áreas de florestas ainda estão sendo derrubadas para o plantio de soja, cana-de-açúcar, pínus e eucaliptos, além da pecuária e do comércio ilegal de madeira. </p>
+		<p>A expansão das cidades e o desenvolvimento do litoral transformaram a vasta floresta na região mais densamente habitada e industrializada da América Latina. Apenas no Brasil, 70% da população, mais de 130 milhões de pessoas, residem na Mata Atlântica. Preservar o que resta da Mata Atlântica é uma prioridade de conservação global e um desafio urgente. </p>
+	</div>
+	<div id="_idContainer020">
+		<p class="figuras-fontes">FONTE: Disponível em: &lt;http://www.pactomataatlantica.org.br/floresta-sua-historia.aspx?lang=pt-br&gt;. Acesso em: 15  out. 2012.</p>
+	</div>
+	<div id="_idContainer021">
+		<p class="texto-corrido">A  preservação das grandes florestas depende do homem. A destruição das florestas também depende do homem. A diferença está na responsabilidade e na competência administrativa.</p>
+		<p class="texto-corrido">A degradação, ponto central da maioria das preocupações ambientais, refere-se a quatro grandes categorias de poluidores:</p>
+	</div>
+	<div id="_idContainer022">
+		<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>INDÚSTRIA:  ela produz resíduos sólidos, efluentes líquidos, emissões atmosféricas que provocam acidentes que, geralmente, deterioram de maneira permanente os locais.</p>
+		<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>SERVIÇOS: eles produzem resíduos sólidos (meios de transportes, computadores, meios de comunicação), efluentes líquidos (turismo de verão) e emissões atmosféricas (autoestrada).</p>
+		<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>DISTRIBUIÇÃO: ela produz resíduos sólidos (as embalagens e os objetos usados), acidentes (incêndios de armazéns com emissões atmosféricas), efluentes líquidos (limpeza) e fumaça (incineração).</p>
+		<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>RESIDENCIAL: produzem resíduos sólidos, efluentes líquidos, emissões atmosféricas e descarte de montanhas de produtos consumidos.</p>
+	</div>
+	<div id="_idContainer023">
+		<p class="texto-corrido">Entretanto, existe um novo tipo de indústria – a indústria do meio ambiente –, que procura minimizar o impacto causado pela atividade humana no meio ambiente. Ela  foi criada a partir da conscientização generalizada da década de oitenta e está se estruturando, no mundo inteiro. Temos três setores:</p>
+	</div>
+	<div id="_idContainer024">
+		<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>as indústrias de reciclagem e limpeza;</p>
+		<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>a engenharia das tecnologias limpas;&#9;</p>
+		<p class="marcadores"><span class="Estilos-para-listas-importadas-do-Word-RTF_Estilo-de-lista-importada-do-Word1">•&#9;</span>a indústria de medida de controle.&#9;</p>
+	</div>
+	<div id="_idContainer025">
+		<h5 class="subtitulo-principal">5 PREVENÇÃO DA POLUIÇÃO</h5>
+	</div>
+	<div id="_idContainer026">
+		<p class="texto-corrido">Com o advento da geração da poluição pelas instituições criadas pelo homem, inicialmente, tivemos a necessidade de destinar esses resíduos para algum local que não interferisse na rotina diária de nossas vidas. Com isso, criaram-se os aterros sanitários, processos, práticas, materiais ou produtos que evitem ou reduzam a poluição, os quais podem incluir a reciclagem, tratamento, mudanças no processo, mecanismos de controle, o uso eficiente de recursos e de substituição de materiais.</p>
+	</div>
+</div>
+
+
+		<script src="js/jquery.js"></script>
+		<script type="text/javascript" src="materialize/js/materialize.js"></script>
+		<script src="js/dropdown-menu.js"></script>
+
+	</body>
+</html>
