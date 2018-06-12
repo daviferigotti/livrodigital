@@ -36,11 +36,14 @@ $('.scroll').click(function(event) {
 
 
 //campos de autoatividade congelarem ao mostrar resposta
-$("#ebibir-resposta-1").click(exibeResposta(textarea1));
+var botao = $(".mostra-resposta-discursiva");
+botao.click(congelaCampos);
 
-function exibeResposta(id){
-  var idCampo = "#" + id;
-  var campo = $(campo);
-  campo.attr("disabled", true);
-  campo.addClass("campo-desativado");
-}
+function congelaCampos(){
+  //console.log(this);
+  var campo = $(this).parent().parent().parent();
+  //console.log(campo);
+  var textarea = campo.find('textarea');
+  textarea.attr("disabled", true);
+  textarea.addClass("campo-desativado");
+};
