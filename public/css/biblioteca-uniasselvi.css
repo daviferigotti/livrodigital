@@ -84,8 +84,6 @@ h6.subtitulo-secundario {
   padding-left: 0.7em;
 }
 
-
-
 .marcadores-inicio-unidade{
   text-indent: inherit;
   text-align: left;
@@ -153,6 +151,26 @@ h6.subtitulo-secundario {
   margin-top: 2px;
 }
 
+.menu-de-opcoes p{
+  text-indent: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.modal-content h5{
+  margin: 0 0 2.656rem 0;
+  color: #424242;
+}
+
+.modal-content a{
+  color: #212121;
+}
+
+.btn-floating i{
+  color: black;
+}
+
 @media screen and (max-width: 800px){
   p{
     text-indent: 2.5em;
@@ -166,7 +184,6 @@ h6.subtitulo-secundario {
 
   .icone-menu{
     color: black;
-
   }
 
   .tabela-mobile td {
@@ -188,6 +205,15 @@ h6.subtitulo-secundario {
 
   .paralax-topico-2{
     margin-top: 0;
+  }
+
+  .fixed-action-btn {
+    right: 5%;
+  }
+
+  .menu-de-opcoes p{
+    font-size: 11px;
+    line-height: 1.1;
   }
 
 }

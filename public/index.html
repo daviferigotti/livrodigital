@@ -6,7 +6,7 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>Administração Ambiental - Uniasselvi Digital</title>
+		<title>teste</title>
 		<link href="materialize/css/materialize.css" rel="stylesheet" type="text/css" />
 		<link href="css/biblioteca-uniasselvi.css" rel="stylesheet" type="text/css" />
 
@@ -34,20 +34,55 @@
 		</ul>
 
 <!--menu navbar utilizado apenas em desktop-->
-			<div class="navbar-fixed">
-				<nav class="yellow accent-3">
-					<div class="nav-wrapper container">
-		        <a href="#!" class="brand-logo"><img src="images/logo_uniasselvi.png" alt="logo" class="logo_uniasselvi"></a>
-						<a href="#mobile-demo" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons icone-menu">menu</i></a>
-		        <ul class="right hide-on-med-and-down">
-							<li><a class="dropdown-trigger black-text" href="#dropdown1" data-target="dropdown1">Unidade 1<i class="material-icons right">arrow_drop_down</i></a></li>
-							<li><a class="dropdown-trigger black-text" href="#dropdown2" data-target="dropdown2">Unidade 2<i class="material-icons right">arrow_drop_down</i></a></li>
-							<li><a class="dropdown-trigger black-text" href="#dropdown3" data-target="dropdown3">Unidade 3<i class="material-icons right">arrow_drop_down</i></a></li>
-		        </ul>
-					</div>
-				</nav>
-	  	</div>
+		<div class="navbar-fixed">
+			<nav class="yellow accent-3">
+				<div class="nav-wrapper container">
+	        <a href="#!" class="brand-logo"><img src="images/logo_uniasselvi.png" alt="logo" class="logo_uniasselvi"></a>
+					<a href="#mobile-demo" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons icone-menu">menu</i></a>
+	        <ul class="right hide-on-med-and-down">
+						<li><a class="dropdown-trigger black-text" href="#dropdown1" data-target="dropdown1">Unidade 1<i class="material-icons right">arrow_drop_down</i></a></li>
+						<li><a class="dropdown-trigger black-text" href="#dropdown2" data-target="dropdown2">Unidade 2<i class="material-icons right">arrow_drop_down</i></a></li>
+						<li><a class="dropdown-trigger black-text" href="#dropdown3" data-target="dropdown3">Unidade 3<i class="material-icons right">arrow_drop_down</i></a></li>
+	        </ul>
+				</div>
+			</nav>
+  	</div>
 <!--fim menu navbar utilizado apenas em desktop-->
+
+<!--botão flutuante com opções de acesso-->
+	<div class="fixed-action-btn">
+		<a class="waves-effect waves-light btn-floating btn-large modal-trigger yellow accent-3 z-depth-2" href="#modal-opcoes"><i class="material-icons icone-menu">forward</i></a>
+	</div>
+
+	<div id="modal-opcoes" class="modal bottom-sheet">
+		<div class="modal-content">
+			<div class="container">
+				<h5>Ir para...</h5>
+				<div class="row">
+					<div class="col s4 menu-de-opcoes center">
+						<a href="#!">
+							<i class="material-icons medium">help</i>
+							<p>Tutoria on-line</p>
+						</a>
+					</div>
+					<div class="col s4 menu-de-opcoes center">
+						<a href="https://login.uniasselvi.com.br/">
+							<i class="material-icons medium">computer</i>
+							<p>Gioconda</p>
+						</a>
+					</div>
+					<div class="col s4 menu-de-opcoes center">
+						<a href="#">
+							<i class="material-icons medium">feedback</i>
+							<p>Avaliar app</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--fim do botão flutuante com opções de acesso-->
+
 
 <!--Menu lateral, utilizado apenas nos dispositivos mobile-->
 		<ul class="sidenav" id="mobile-demo">
@@ -315,7 +350,7 @@
 			</div>
 			<div>
 				<div id="_idContainer022">
-					<img src="teste-web-resources/image/img1.jpg" alt="" class="responsive-img materialboxed" />
+					<img src="teste-web-resources/image/img1.svg" alt="" class="responsive-img materialboxed" />
 				</div>
 			</div>
 			<div id="_idContainer023" class="Quadro-de-texto-b-sico">
@@ -466,22 +501,19 @@
 
 			<div class="autoatividades">
 				<h4 class="titulo-autoatividades">AUTOATIVIDADES</h4>
-				<p class="pergunta" id="teste">Questão 1 - Analise as situações a seguir e indique quem compõe a população e, quando for o caso, a amostra. a) A Polícia Rodoviária Federal quer divulgar o total de acidentes com vítimas nas rodovias federais no último feriado. Para isso, coleta o número de chamados atendidos pelas suas guaritas para este tipo de ocorrência.</p>
-				<textarea class="autoatividade"></textarea>
+				<p class="pergunta">Questão 1 - Analise as situações a seguir e indique quem compõe a população e, quando for o caso, a amostra. a) A Polícia Rodoviária Federal quer divulgar o total de acidentes com vítimas nas rodovias federais no último feriado. Para isso, coleta o número de chamados atendidos pelas suas guaritas para este tipo de ocorrência.</p>
+				<textarea class="campo-autoatividade" id="textarea1"></textarea>
 
-				<ul class="collapsible">
+				<ul class="collapsible" id="pergunta-1">
 			    <li>
-			      <a class="collapsible-header mostra-resposta-discursiva" href="#id"><i class="material-icons">chat</i>Exibir Resposta</a>
-			      <div class="collapsible-body"><span>R.: 1 Concepção socrática: para Sócrates, é virtuoso quem é sábio e pratica o bem, do contrário, quem não conhece o bem e não o pratica é infeliz. Aqueles que praticam o mal, o fazem por ignorância. Crítica: dificuldade de encontrarmos o que é certo e errado apenas pelos caminhos do conhecimento. 2 Concepção aristotélica: para Aristóteles, a Ética está vinculada à vida prática. Na obra Ética a Nicômaco, Aristóteles trata da Ética como a vida boa que todo ser humano deseja; a busca da felicidade. Crítica: uma das críticas que se pode fazer à ética aristotélica é quanto aos critérios utilizados para a escolha do que é certo ou do que é errado. Cada um pode justificar a sua situação conforme lhe convém.
-3 Concepção cristã: para a concepção cristã, a nossa virtude se define na relação com Deus e não com a sociedade. Crítica: será que o ser humano não pode encontrar, por si só, o que é certo e o que é errado, necessitando do auxílio divino para praticar o bem?
-4 Concepção kantiana: propõe que o conceito ético seja extraído do fato de que cada um deve se comportar de acordo com princípios universais aplicáveis a todos, sem exceções, desde que se exija do próximo o mesmo que exigimos de nós. Crítica: dificuldade de alcançar um consenso entre os indivíduos sobre o que é certo e o que é errado.
-5 Concepção marxista: para Marx, numa sociedade onde vivem exploradores e explorados, é a moral da classe dominante que predomina. Somente poderá existir uma moral verdadeira quando vivermos numa sociedade sem classes. Crítica: como seria esta sociedade sem classes e sem propriedade privada? 6 Concepção relativista: para a concepção relativista, cada pessoa deve definir o que é certo e o que é errado, tendo como referências as suas próprias convicções. Crítica: como conciliar os interesses de cada um?</span></div>
+			      <div class="collapsible-header mostra-resposta-discursiva" id="exibir-resposta-1"><i class="material-icons">chat</i>Exibir Resposta</div>
+			      <div class="collapsible-body"><span>R.: 1 Concepção socrática: para Sócrates, é virtuoso quem é sábio e pratica o bem, do contrário, quem não conhece o bem e não o pratica é infeliz. Aqueles que praticam o mal, o fazem por ignorância. Crítica: dificuldade de encontrarmos o que é certo e errado apenas pelos caminhos do conhecimento. 2 Concepção aristotélica: para Aristóteles, a Ética está vinculada à vida prática. Na obra Ética a Nicômaco, Aristóteles trata da Ética como a vida boa que todo ser humano deseja; a busca da felicidade. Crítica: uma das críticas que se pode fazer à ética aristotélica é quanto aos critérios utilizados para a escolha do que é certo ou do que é errado. Cada um pode justificar a sua situação conforme lhe convém. 3 Concepção cristã: para a concepção cristã, a nossa virtude se define na relação com Deus e não com a sociedade. Crítica: será que o ser humano não pode encontrar, por si só, o que é certo e o que é errado, necessitando do auxílio divino para praticar o bem? 4 Concepção kantiana: propõe que o conceito ético seja extraído do fato de que cada um deve se comportar de acordo com princípios universais aplicáveis a todos, sem exceções, desde que se exija do próximo o mesmo que exigimos de nós. Crítica: dificuldade de alcançar um consenso entre os indivíduos sobre o que é certo e o que é errado. 5 Concepção marxista: para Marx, numa sociedade onde vivem exploradores e explorados, é a moral da classe dominante que predomina. Somente poderá existir uma moral verdadeira quando vivermos numa sociedade sem classes. Crítica: como seria esta sociedade sem classes e sem propriedade privada? 6 Concepção relativista: para a concepção relativista, cada pessoa deve definir o que é certo e o que é errado, tendo como referências as suas próprias convicções. Crítica: como conciliar os interesses de cada um?</span></div>
 			    </li>
 				</ul>
 
 
 				<p class="pergunta">Questão 2 - Classifique as variáveis a seguir como variáveis qualitativas (nominais ou ordinais) ou quantitativas (discretas ou contínuas), lembrando que esta classificação depende do contexto do problema. a) Em uma pesquisa, pede-se para o entrevistado escrever o algarismo 1 em um campo, caso seja do sexo masculino, e 2, caso seja do sexo feminino.</p>
-				<textarea class="autoatividade" rows="10" cols="80"></textarea>
+				<textarea class="campo-autoatividade"></textarea>
 
 				<ul class="collapsible">
 					<li>
