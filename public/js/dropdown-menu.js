@@ -16,7 +16,6 @@ $(document).ready(function(){
 
       $('.modal').modal();
 
-      escondeCarregamento();
 });
 
 //chamando paralax
@@ -34,13 +33,6 @@ $('.scroll').click(function(event) {
      menuHeight = $('.scroll').innerHeight();
      $('html, body').animate({scrollTop:targetOffset - menuHeight}, 1000)
    });
-
-//pagina de carregamento
-
-function escondeCarregamento(){
-  $(".pagina-carregamento").addClass("hidden");
-  $(".pagina-carregamento").removeClass("pagina-carregamento");
-}
 
 
 //campos de autoatividade congelarem ao mostrar resposta
