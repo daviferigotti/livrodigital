@@ -171,6 +171,14 @@ h6.subtitulo-secundario {
   color: black;
 }
 
+.hidden{
+  display: none;
+}
+
+.pagina-carregamento{
+  display: none;
+}
+
 @media screen and (max-width: 800px){
   p{
     text-indent: 2.5em;
@@ -214,6 +222,27 @@ h6.subtitulo-secundario {
   .menu-de-opcoes p{
     font-size: 11px;
     line-height: 1.1;
+  }
+
+  .pagina-carregamento{
+    z-index: 9999999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .overflow-hidden{
+    overflow: hidden;
+  }
+
+  .hidden{
+    display: none;
   }
 
 }
