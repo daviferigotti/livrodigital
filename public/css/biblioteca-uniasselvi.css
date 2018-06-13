@@ -184,6 +184,11 @@ h6.subtitulo-secundario {
   resize: none;
 }
 
+.titulo-de-caixa-back{
+  text-align: center;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 800px){
   p{
 
