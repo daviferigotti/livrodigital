@@ -1,3 +1,7 @@
+body{
+  line-height: 1.4rem;
+}
+
 .objetivos-de-aprendizagem-titulo{
   font-size: 2rem;
 }
@@ -55,7 +59,7 @@ h5.subtitulo-principal {
 
 tr, td{
   border: 1px solid black;
-    padding: 0;
+  padding: 0;
 }
 
 td p{
@@ -140,6 +144,7 @@ h6.subtitulo-secundario {
 
 #paralax-top-2{
   height: 350px;
+  margin-top: 100px;
 }
 
 .caixa-com-background{
@@ -149,6 +154,8 @@ h6.subtitulo-secundario {
 
 .figuras-fontes{
   margin-top: 2px;
+  font-size:0.81rem;
+  font-style: italic;
 }
 
 .menu-de-opcoes p{
@@ -171,10 +178,15 @@ h6.subtitulo-secundario {
   color: black;
 }
 
+.autoatividades textarea{
+  height: 200px;
+  border-radius: 5px;
+  resize: none;
+}
+
 @media screen and (max-width: 800px){
   p{
-    text-indent: 2.5em;
-    text-align: justify;
+
   }
 
   .logo_uniasselvi {

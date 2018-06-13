@@ -14,7 +14,9 @@ $(document).ready(function(){
 
       $('.collapsible').collapsible();
 
-      $('.modal').modal();
+      $('.modal').modal({
+        preventScrolling: false
+      });
 
 });
 
